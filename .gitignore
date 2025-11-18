@@ -1,0 +1,78 @@
+# Root ignores
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp
+*.log
+logs/
+tmp/
+
+# Env files
+.env
+.env.*
+*.local
+
+# Node (root in case)
+node_modules/
+
+# -----------------------------
+# Frontend (Node/React)
+# -----------------------------
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.*.local
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# -----------------------------
+# Backend (Python)
+# -----------------------------
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/*.so
+backend/.Python
+backend/env/
+backend/venv/
+venv/
+ENV/
+env/
+.venv/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/coverage.xml
+backend/htmlcov/
+backend/.env
+backend/.env.*
+
+# Python global
+**/__pycache__/
+**/*.py[cod]
+
+# Docker & misc
+*.pid
+*.seed
+
+# OneDrive conflict files
+* (Case Conflict)*
+* (Conflicted copy)*
